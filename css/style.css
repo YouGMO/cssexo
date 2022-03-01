@@ -78,6 +78,7 @@ body {
 	flex-direction: column;
 	margin-top: 20%;
 	margin-left: 5%;
+	width: 20vw;
 }
 
 .user-title {
@@ -85,16 +86,44 @@ body {
 	font-weight: 400;
 	color: #54667a;
 	text-transform: uppercase;
+	margin-bottom: 10px;
 }
 
 .user-input {
 	display: block;
 	text-decoration: #111;
 	width: fit-content;
-	background-color: #f1f1f4;
+	background-color: #b7b7ee83;
+	border-radius: 0%;
+	width: 100%;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .password-input {
 	display: block;
 	text-decoration: #111;
-	background-color: #f1f1f4;
+	background-color: #b7b7ee83;
+	width: 100%;
+	height: 30px;
+	margin-bottom: 5px;
+}
+
+.btn-login {
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	background-image: linear-gradient(to right, #55c57a, #1c9745);
+	border-radius: 100px;
+	padding: 10px 100px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+	width: 100%;
+}
+.new-account {
+	display: block;
+	text-decoration: none;
+	color: #54667a;
 }
